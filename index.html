@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hax Among Us</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <div id="title">
+        There are <span id="title-span">Hax Among Us</span>
+    </div>
+    <table id="role-switcher">
+        <tbody>
+            <tr>
+                <td>Host</td>
+                <td>Guest</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="inputs">
+        <tbody>
+            <tr>
+                <td style="padding-right: 10px;">Discord Username</td>
+                <td><input type="text" id="discord" placeholder="user#0000"></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 10px;">Bot Token</td>
+                <td><input type="text" id="token" placeholder="S0M3-G4RB4G3-L3TT3R5"></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- You can also require other files to run in this process -->
+    <script src="./js/renderer.js"></script>
+    <script src="./js/bot.js"></script>
+    <script src="./js/sniffer.js"></script>
+</body>
+
+</html>
