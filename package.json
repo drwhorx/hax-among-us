@@ -17,13 +17,27 @@
     "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
+        "@babel/cli": "^7.11.6",
+        "@babel/core": "^7.11.6",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/plugin-transform-arrow-functions": "^7.10.4",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "^7.10.4",
+        "babel-loader": "^8.1.0",
         "electron": "^10.1.2",
+        "electron-cgi": "^1.0.6",
         "electron-rebuild": "^2.0.3",
-        "socketwatcher": "^0.4.0"
+        "html-webpack-plugin": "^4.5.0",
+        "socketwatcher": "^0.4.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12"
     },
     "dependencies": {
         "cap": "^0.2.1",
+        "discord-game": "^0.1.2",
+        "discord-rpc": "^3.1.4",
         "discord.js": "^12.3.1",
-        "udp-packet": "^2.0.0"
+        "udp-packet": "^2.0.0",
+        "websocket": "^1.0.32"
     }
 }
